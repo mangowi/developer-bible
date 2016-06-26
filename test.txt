@@ -1,0 +1,6 @@
+The Decorator pattern is used in java.io
+
+
+When such a constructor is been used, then all methods will delegate to the wrapped instance, with here and there changes in the way how the methods behave.
+For example, buffering the stream in memory beforehand, or decompressing the stream beforehand, or interpreting the stream differently, etcetera.
+ Some have even additional methods which finally also delegate further to the wrapped instance. Those methods decorate the wrapped instance with extra behaviour.
