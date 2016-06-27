@@ -5,10 +5,14 @@ package ch.adriankrebs.katas.bowling;
  */
 public class Game {
 
+    private int score = 0;
+    private int counter = 0;
+
     private Frame [] frames  = new Frame [10];
+    private int framepointer = 0;
 
 
-    public int score() {
+    public int getScore() {
 
 
         /*
@@ -18,12 +22,13 @@ public class Game {
          */
 
 
-        return 0;
+        return score;
     }
 
 
     public void roll(int pins) {
 
+        score += pins;
 
     }
 }
