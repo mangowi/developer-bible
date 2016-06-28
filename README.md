@@ -23,6 +23,13 @@ Design patterns (describe all 25 patterns of the GOF book, including examples)
 * Methods (understand XP, Scrum, Lean, Kanban, Waterfall, Structured Analysis)
 * Disciplines (practice TDD, Pair Programming)
 * Artifacts (UML, DFD, Petri Nets,..)
+* 
+
+
+# SOLID Design principles
+
+https://zeroturnaround.com/rebellabs/object-oriented-design-principles-and-the-5-ways-of-creating-solid-applications/
+
 
 
 
