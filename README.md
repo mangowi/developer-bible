@@ -1,5 +1,10 @@
-# Head First Design Patterns
+# GOF Design Patterns
 
+One of my favourity overview of the most common GOF patteterns is this stackoverflow question:
+
+http://stackoverflow.com/questions/1673841/examples-of-gof-design-patterns-in-javas-core-libraries
+
+its based one real world examples in java core libraries.
 
 # Code Katas
 
