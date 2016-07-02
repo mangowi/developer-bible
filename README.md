@@ -57,11 +57,13 @@ The Dependency Inversion Principle (DIP) states that high-level modules should n
 * Different search and sorting Algorithms
 * Maze solving
 * Traveling sales man
-![alt tag](http://imgs.xkcd.com/comics/travelling_salesman_problem.png)
-* Social network 
+* Social network (eulerian path)
 * Recursion
 * Tree
 * Graph
+
+
+![alt tag](http://imgs.xkcd.com/comics/travelling_salesman_problem.png)
 
 
 
