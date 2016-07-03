@@ -1,3 +1,14 @@
+# Intro
+
+Minimal List of Things that every software professional should be conversant with:
+
+* Design patterns (describe all 25 patterns of the GOF book, including examples)
+* Design principles (know the SOLID principles)
+* Methods (understand XP, Scrum, Lean, Kanban, Waterfall, Structured Analysis)
+* Disciplines (practice TDD, Pair Programming)
+* Artifacts (UML, DFD, Petri Nets,..)
+
+
 # GOF Design Patterns
 
 One of my favourity overview of the most common GOF patteterns is this stackoverflow question:
@@ -8,27 +19,7 @@ its based one real world examples in java core libraries.
 
 # Code Katas
 
-Since I read the Book "Clean Coder" I got very excited about Code Katas.
-Uncle Bob tells us in his book that he is doing one or two Katas daily.
-I'm tying to keep up with that
-
-Goals for my Code Training
-
-* Spend 20 hours per week in addition to your work (those hours are for me - I try to spend it for reading, practicing, learning
-* "Professionals spend time caring for their profession"
-* "You should not be working for your company during those 20 hours. Instead you should work on your career"
-
-
-
-Minimal List of Things that every software professional should be conversant with:
-
-Design patterns (describe all 25 patterns of the GOF book, including examples)
-
-* Design principles (know the SOLID principles)
-* Methods (understand XP, Scrum, Lean, Kanban, Waterfall, Structured Analysis)
-* Disciplines (practice TDD, Pair Programming)
-* Artifacts (UML, DFD, Petri Nets,..)
-* 
+https://github.com/emilybache/GildedRose-Refactoring-Kata
 
 
 # SOLID Design principles
@@ -53,19 +44,103 @@ The Dependency Inversion Principle (DIP) states that high-level modules should n
 
 # Algorithms
 
-* Monte Carlos
+
 * Different search and sorting Algorithms
-* Maze solving
-* Traveling sales man
 * Social network (eulerian path)
 * Recursion
 * Tree
 * Graph
+* Maze solving
+* Monte Carlos*
+* Traveling sales man
 
 
 ![alt tag](http://imgs.xkcd.com/comics/travelling_salesman_problem.png)
 
 
+# Clean Code Rules
 
+**Comments** 
 
+* Inappropriate Information
+* Obsolete Comment
+* Redundant Comment 
+* Poorly Written Comment
+* Commented-Out Code 
+ 
+**Environment**
 
+* Build Requires More Than One Step
+* Tests Require More Than One Step 
+ 
+**Functions**
+
+* Too Many Arguments
+* Output Arguments 
+* Flag Arguments
+* Dead Function 
+* General
+* Multiple Languages in One Source File
+* Obvious Behavior Is Unimplemented
+* Incorrect Behavior at the Boundaries
+* Overridden Safeties
+* Duplication
+* Code at Wrong Level of Abstraction
+* Base Classes Depending on Their Derivatives 
+* Too Much Information 
+* Dead Code
+* Vertical Separation 
+* Inconsistency 
+* Clutter
+* Artificial Coupling
+* Feature Envy
+* Selector Arguments
+* Obscured Intent 
+* Misplaced Responsibility
+* Inappropriate Static
+* Use Explanatory Variables 
+* Function Names Should Say What They Do 
+* Understand the Algorithm 
+* Make Logical Dependencies Physical
+* Prefer Polymorphism to If/Else or Switch/Case 
+* Follow Standard Conventions
+* Replace Magic Numbers with Named Constants
+* Be Precise
+* Structure over Convention
+* Encapsulate Conditionals 
+* Avoid Negative Conditionals
+* Functions Should Do One Thing 
+* Hidden Temporal Couplings
+* Don’t Be Arbitrary
+* Encapsulate Boundary Conditions
+* Functions Should Descend OnlyOne Level of Abstraction 
+* Keep Configurable Data at High Levels
+* Avoid Transitive Navigation
+ 
+**Java**
+
+* J1: Avoid Long Import Lists by Using Wildcards
+* J2: Don’t Inherit Constants 
+* J3: Constants versus Enums
+ 
+**Names**
+
+* *Choose Descriptive Names
+* Choose Names at the Appropriate Level of Abstraction
+* Use Standard Nomenclature Where Possible
+* Unambiguous Names
+* Use Long Names for Long Scopes
+* Avoid Encodings
+* Names Should Describe Side-Effects 
+ 
+**Tests**
+
+* Insufficient Tests
+* Use a Coverage Tool!
+* Don’t Skip Trivial Tests 
+* An Ignored Test Is a Question about an Ambiguity
+* Test Boundary Conditions
+* Exhaustively Test Near Bugs
+* Patterns of Failure Are Revealing 
+* Test Coverage Patterns Can Be Revealing 
+* Tests Should Be Fast
