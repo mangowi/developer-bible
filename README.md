@@ -1,6 +1,6 @@
 # Intro
 
-Minimal List of Things that every software professional should be conversant with:
+Minimal List of Things that every software professional should be conversant with (from Uncle Bobs Clean Coder):
 
 * Design patterns (describe all 25 patterns of the GOF book, including examples)
 * Design principles (know the SOLID principles)
@@ -8,6 +8,7 @@ Minimal List of Things that every software professional should be conversant wit
 * Disciplines (practice TDD, Pair Programming)
 * Artifacts (UML, DFD, Petri Nets,..)
 
+I could also imagine a collection of interview questions and the basic algorithms every developer should know.
 
 # GOF Design Patterns
 
