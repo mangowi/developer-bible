@@ -11,11 +11,11 @@ import static org.hamcrest.core.Is.is;
  */
 public class BowlingGameTest {
 
-    private Game g;
+    private BowlingGame g;
 
     @Before
     public void setUp() throws Exception {
-        g = new Game();
+        g = new BowlingGame();
 
     }
 
@@ -25,9 +25,7 @@ public class BowlingGameTest {
 
             g.roll(pins);
         }
-
     }
-
 
     @Test
     public void testGutterGame() {
@@ -49,14 +47,40 @@ public class BowlingGameTest {
     @Test
     public void testOneSprae() {
 
-        g.roll(5);
-        g.roll(5); // spare // bonus is next roll
+        rollSpare();
         g.roll(3); // 3 regular+ 3 bonus for spare
 
         rollMany(17,0);
 
         assertThat(g.getScore(),is(16));
+    }
 
+    @Test
+    public void testOneStrike() {
+
+        rollStrike();
+        g.roll(3);
+        g.roll(4);  // bonus for strike are next two balls
+
+        rollMany(16,0);
+        assertThat(g.getScore(),is(24));
+    }
+
+    @Test
+    public void testPerfectGame(){
+        rollMany(12,10);
+        assertThat(g.getScore(),is(300));
+    }
+
+
+    private void rollStrike() {
+        g.roll(10);
+
+    }
+
+    private void rollSpare() {
+        g.roll(5);
+        g.roll(5); // spare // bonus is next roll
     }
 
 }
